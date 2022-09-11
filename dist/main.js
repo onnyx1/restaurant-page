@@ -1,0 +1,1 @@
+document.querySelector(".home"),document.querySelector(".menu"),document.querySelector(".contact");

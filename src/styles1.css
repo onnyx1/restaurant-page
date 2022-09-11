@@ -1,0 +1,177 @@
+/* custom properties, rem(font size base), box-sizing */
+:root {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  /* border- box on all elements */
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Remove system-level styling on inputs used by browsers */
+  input {
+    appearance: none;
+  }
+  
+  /* background-color, margins, fonts */
+  /* body extends whole viewport and no scrolling issues */
+  /* font-size by default is 16px */
+  body {
+    font-size: 1.6rem;
+    font-family: 'Fredoka One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  html
+  {
+      height: 100%;
+  }
+  
+  header {
+    display: flex;
+    background-color: rgb(4,47,75);
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    z-index: 1;
+  }
+  
+  #content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: rgb(255,246,218);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: .5rem;
+  }
+  
+  
+  nav a {
+    color:rgb(255,246,218);
+    font-size: 1.6rem;
+  }
+  
+  .company-name {
+    color: rgb(237,18,80);
+    font-size: 3.9rem;
+  }
+  
+  
+  
+  nav a:hover {
+    color: rgb(237,18,80);
+  }
+  
+  nav > ul {
+    display: flex;
+    gap: 8vw;
+  }
+
+
+
+
+
+
+
+
+  .menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+  }
+  
+
+.menu-header > h1 {
+    font-size: 4.9rem;
+    margin: 0px;
+    color: rgb(36,36,36);
+    font-weight: 500;
+    padding: 0px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+  #chef {
+    height: 50px;
+    width: auto;
+  }
+
+  .menu-items {
+flex: 1 1 0;
+background-color: red;
+margin: 3rem;
+margin-top: 2rem;
+margin-left: 15%;
+margin-right: 15%;
+background-color: rgb(255,197,176);
+border-radius: 20px;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-wrap: wrap;
+
+  }
+
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    flex: 1 1 50%;
+    column-gap: 1rem;
+    padding: 3rem;
+  }
+
+  .menu-item img {
+    width: 100%;
+  max-width: 200px;
+  height: 200px;
+
+  }
+
+
+  .menu-description{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .menu-description h2 {
+    font-size: 1.9rem;
+    margin: 0px;
+    color: rgb(4,47,75);
+    font-family: 'Sansita Swashed', cursive;
+  }
+
+  .menu-description span {
+    font-size: 1.7rem;
+    color: rgb(238,21,80);
+  }
+  .menu-description p {
+    margin: 0px;
+    margin-top: 1rem;
+    font-size: 1.9rem;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: .5rem;
+  }
+
+  .menu-item-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+  }

@@ -1,0 +1,177 @@
+/* custom properties, rem(font size base), box-sizing */
+:root {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  /* border- box on all elements */
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Remove system-level styling on inputs used by browsers */
+  input {
+    appearance: none;
+  }
+  
+  /* background-color, margins, fonts */
+  /* body extends whole viewport and no scrolling issues */
+  /* font-size by default is 16px */
+  body {
+    font-size: 1.6rem;
+    font-family: 'Fredoka One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+ 
+  
+  header {
+    display: flex;
+    background-color: rgb(4,47,75);
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    z-index: 1;
+  }
+  
+  #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    background-color: rgb(255,246,218);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: .5rem;
+  }
+  
+  
+  nav a {
+    color:rgb(255,246,218);
+    font-size: 1.6rem;
+  }
+  
+  .company-name {
+    color: rgb(237,18,80);
+    font-size: 3.9rem;
+  }
+  
+  
+  
+  nav a:hover {
+    color: rgb(237,18,80);
+  }
+  
+  nav > ul {
+    display: flex;
+    gap: 8vw;
+  }
+
+
+
+
+
+  h1{
+    font-family: 'Sansita Swashed', cursive;
+    color: rgb(36,36,36);
+    margin-top: 3rem;
+    font-size: 4.9rem;
+    align-self: center;
+  }
+
+  .background{
+    background-color: rgb(255,197,176);
+    flex: auto;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-bottom: 20%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .contact-container{
+    display: flex;
+  }
+
+  .contact-left {
+    font-family: popins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex:.5;
+    padding: 5rem;
+  }
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2.7rem;
+  }
+
+  .contact-right{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    flex:1;
+
+  }
+
+  .row {
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+
+  input, textarea{
+    border:none;
+    border-style: none;
+    outline-style: none;
+    background-color: rgb(255,197,176);
+    border-bottom: 2px solid black;
+
+  }
+
+
+  span{
+    color: black;
+    line-height: 2rem;
+   
+  }
+
+
+svg{
+    color:rgb(237,18,80);
+}
+
+  button {
+    align-self: flex-start;
+    background-color: rgb(237,18,80);
+    padding: .8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: none;
+    border-radius: 5px;
+    color:white;
+  }
+
+ 
