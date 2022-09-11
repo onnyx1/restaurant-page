@@ -87,8 +87,8 @@ h1, p{
   padding: 0px;
 }
 
-.cover {
-  background-image: url("./background.jpg");
+#content{
+  background-image: url("../src/background.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
